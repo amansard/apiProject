@@ -1,0 +1,92 @@
+body {
+    background-color: pink;
+    background-image: url("assets/Studio-Ghibli.jpg");
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    height: 55vh;
+    margin-bottom: 0;
+}
+
+.APIChallenge {
+    margin: auto;
+    width: 75%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Bentham', serif;
+    text-transform: capitalize !important;
+}
+
+#textHere {
+    font-size: 18px;
+    letter-spacing: .04em;
+    color: white;
+    font-family: 'Karla', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+#cardBackground {
+    background-color: rgba(17, 77, 87, 0.6);
+    border: px solid black;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
+.searchResults {
+    border-radius: 10px;
+    width: 75%;
+    height: 350px;
+    margin: auto;
+}
+
+
+/* Button */
+
+#Submit {
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+    padding: 20 40px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    background-color: white;
+    color: rgba(17, 77, 87, 0.6);
+    border: none !important;
+    font-size: 20px !important;
+    font-family: 'Karla', sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    letter-spacing: .08em;
+}
+
+article {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif !important;
+    font-weight: 300 !important;
+    padding-top: 40px;
+}
+
+article h1 {
+    font-size: 40px;
+}
+
+article h2 {
+    font-size: 25px;
+}
